@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/ivFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/food01" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/llBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="@+id/ivFood"
+        app:layout_constraintStart_toStartOf="@+id/ivFood"
+        app:layout_constraintTop_toBottomOf="@+id/ivFood">
+
+        <Button
+            android:id="@+id/btnEdible"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="#4CAF50"
+            android:onClick="onClickEdible"
+            android:text="@string/edible" />
+
+        <Button
+            android:id="@+id/btnInEdible"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFCD0000"
+            android:onClick="onClickInEdible"
+            android:text="@string/inedible" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <TextView
+        android:id="@+id/tvRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/right_answers"
+        android:textColor="#4CAF50"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/llBtn"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/llBtn"
+        app:layout_constraintTop_toBottomOf="@+id/llBtn" />
+
+    <TextView
+        android:id="@+id/tvWrong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/wrong_answers"
+        android:textColor="#CD0000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/tvRight"
+        app:layout_constraintStart_toStartOf="@+id/tvRight"
+        app:layout_constraintTop_toBottomOf="@+id/tvRight" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

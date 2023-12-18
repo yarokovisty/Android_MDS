@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="edible">Edible</string>
+    <string name="inedible">Inedible</string>
+    <string name="right_answers">Right answers:</string>
+    <string name="wrong_answers">Wrong answers:</string>
+</resources>

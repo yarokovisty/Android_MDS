@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="edible">Съедобный</string>
+    <string name="inedible">Несъедобный</string>
+    <string name="right_answers">Правильных ответов:</string>
+    <string name="wrong_answers">Неправильных ответов:</string>
+</resources>
