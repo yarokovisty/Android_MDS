@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    // Cardview
+    <style name="cardview_food_item" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">@dimen/cardview_food_item_corner</item>
+        <item name="cardElevation">@dimen/cardview_food_item_elevation</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="contentPaddingStart">@dimen/cardview_food_item_padding_horizontal</item>
+        <item name="contentPaddingEnd">@dimen/cardview_food_item_padding_horizontal</item>
+        <item name="contentPaddingTop">@dimen/cardview_food_item_padding_vertical</item>
+        <item name="contentPaddingBottom">@dimen/cardview_food_item_padding_vertical</item>
+        <item name="android:layout_margin">@dimen/cardview_food_item_margin</item>
+    </style>
+    
+    <style name="cardview_title_text_food_item">
+        <item name="android:textSize">@dimen/cardview_food_item_text_size_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/title</item>
+    </style>
+
+    <style name="cardview_price_text_food_item">
+        <item name="android:textSize">@dimen/cardview_food_item_text_size_price</item>
+        <item name="android:textColor">@color/price</item>
+    </style>
+</resources>

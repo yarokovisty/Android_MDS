@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Lab12</string>
+    <string name="text_price">Цена: %.2f\u20BD</string>
+    <string name="add_thing">Добавлено: %s</string>
+    <string name="delete_thing">Удалено: %s</string>
+</resources>

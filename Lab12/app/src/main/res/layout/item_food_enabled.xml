@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp"
+    style="@style/cardview_food_item">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iconFoodItem"
+                android:layout_width="@dimen/size_food_item_icon"
+                android:layout_height="@dimen/size_food_item_icon"
+                android:layout_marginStart="@dimen/cardview_food_item_icon_margin"
+                android:importantForAccessibility="no"
+                android:src="@drawable/food01"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/iconShoppingCart"
+                android:layout_width="@dimen/size_shopping_cart_icon"
+                android:layout_height="@dimen/size_shopping_cart_icon"
+                android:layout_margin="@dimen/cardview_food_item_icon_margin"
+                android:importantForAccessibility="no"
+                android:src="@drawable/icon_shopping_cart_add"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/cardview_food_item_text_margin_start"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/iconShoppingCart"
+                app:layout_constraintStart_toEndOf="@+id/iconFoodItem"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/tvTitleFood"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Арахисовая паста"
+                    style="@style/cardview_title_text_food_item"/>
+
+                <TextView
+                    android:id="@+id/tvPriceFood"
+                    style="@style/cardview_price_text_food_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Цена: 179.99Р" />
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+</androidx.cardview.widget.CardView>
