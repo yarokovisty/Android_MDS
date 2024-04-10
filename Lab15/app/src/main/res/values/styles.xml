@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style_btn_add_product">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/margin_btn_add_product</item>
+        <item name="android:layout_gravity">bottom|end</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:src">@drawable/icon_add</item>
+    </style>
+    <style name="style_text_name_product">
+        <item name="android:textSize">@dimen/text_size_name_product</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">@dimen/marginBottom_text_name_product</item>
+    </style>
+    <style name="style_text_number_product">
+        <item name="android:textSize">@dimen/text_size_number_product</item>
+    </style>
+</resources>

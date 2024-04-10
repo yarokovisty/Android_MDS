@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/marginHorizontal_item_product"
+    android:layout_marginVertical="@dimen/marginVertical_item_product"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvNameProduct"
+        style="@style/style_text_name_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Молоко" />
+
+    <TextView
+        android:id="@+id/tvNumberProduct"
+        style="@style/style_text_number_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@string/number_product" />
+</LinearLayout>

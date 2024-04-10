@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_btn_add_product">16dp</dimen>
+    <dimen name="text_size_name_product">16sp</dimen>
+    <dimen name="marginBottom_text_name_product">4dp</dimen>
+    <dimen name="text_size_number_product">14sp</dimen>
+    <dimen name="marginHorizontal_item_product">4dp</dimen>
+    <dimen name="marginVertical_item_product">8dp</dimen>
+    <dimen name="padding_dialog_content">16dp</dimen>
+</resources>

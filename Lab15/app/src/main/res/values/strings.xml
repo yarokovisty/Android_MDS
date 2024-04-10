@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab15</string>
+    <string name="number_product">Количество: %s</string>
+    <string name="field_thing">Товар</string>
+    <string name="field_number">Количество</string>
+    <string name="cancel">Отмена</string>
+    <string name="ok">ОК</string>
+</resources>
