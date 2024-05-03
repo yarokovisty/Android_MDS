@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_music"
+        android:title="@string/music"
+        android:icon="@drawable/icon_music"/>
+
+    <item
+        android:id="@+id/item_book"
+        android:title="@string/book"
+        android:icon="@drawable/icon_book"/>
+
+    <item
+        android:id="@+id/item_news"
+        android:title="@string/news"
+        android:icon="@drawable/icon_news"/>
+</menu>
