@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Lab18</string>
+    <string name="get_value">Получить курсы валют</string>
+</resources>
