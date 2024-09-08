@@ -4,13 +4,12 @@ package com.example.lab20
 
 import android.app.NotificationManager
 import android.app.PendingIntent
+import android.app.RemoteInput
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.util.Log
-import androidx.core.app.NotificationCompat
-import androidx.core.app.RemoteInput
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 
 class NotificationActionReceiver : BroadcastReceiver() {

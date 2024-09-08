@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="8dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/tvNameProject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_project"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvNameProjectValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:textStyle="bold"
+        android:textColor="#00f"
+        app:layout_constraintStart_toEndOf="@id/tvNameProject"
+        app:layout_constraintTop_toTopOf="@id/tvNameProject"
+        app:layout_constraintBottom_toBottomOf="@id/tvNameProject"
+        tools:text="tinytetris"/>
+
+    <TextView
+        android:id="@+id/tvAuthorProject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/author_project"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvNameProject"/>
+
+    <TextView
+        android:id="@+id/tvAuthorProjectValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:textColor="#00f"
+        app:layout_constraintTop_toTopOf="@id/tvAuthorProject"
+        app:layout_constraintBottom_toBottomOf="@id/tvAuthorProject"
+        app:layout_constraintStart_toEndOf="@id/tvAuthorProject"
+        tools:text="taylorconor"/>
+
+    <TextView
+        android:id="@+id/tvProgrammingLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/programming_language"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvAuthorProject" />
+
+    <TextView
+        android:id="@+id/tvProgrammingLanguageValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        app:layout_constraintStart_toEndOf="@id/tvProgrammingLanguage"
+        app:layout_constraintBottom_toBottomOf="@id/tvProgrammingLanguage"
+        app:layout_constraintTop_toTopOf="@id/tvProgrammingLanguage"
+        tools:text="C++"/>
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvProgrammingLanguage"
+        tools:text="80x32 terminal tetris"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

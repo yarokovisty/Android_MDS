@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab23</string>
+
+    <!-- Item repository -->
+    <string name="name_project">Название проекта:</string>
+    <string name="author_project">Автор проекта:</string>
+    <string name="programming_language">Язык программирования:</string>
+
+</resources>
