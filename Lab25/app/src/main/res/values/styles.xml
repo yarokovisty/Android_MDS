@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Text -->
+    // Head
+    <style name="Style.Text.Head" parent="">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/primaryText</item>
+    </style>
+    <style name="Style.Text.Head1" parent="Style.Text.Head">
+        <item name="android:textSize">@dimen/head1_text_size</item>
+    </style>
+    <style name="Style.Text.Head2" parent="Style.Text.Head">
+        <item name="android:textSize">@dimen/head2_text_size</item>
+    </style>
+
+    // Body
+
+    // Caption
+    <style name="Style.Text.Caption" parent="">
+        <item name="android:textColor">#a8a8a8</item>
+    </style>
+    <style name="Style.Text.Caption1" parent="Style.Text.Caption">
+        <item name="android:textSize">@dimen/caption1_text_size</item>
+    </style>
+    <style name="Style.Text.Caption2" parent="Style.Text.Caption">
+        <item name="android:textSize">@dimen/caption2_text_size</item>
+    </style>
+    <!-- Text -->
+
+
+</resources>

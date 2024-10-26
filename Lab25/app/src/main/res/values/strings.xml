@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lab25</string>
+
+    <string name="title_new_book">Новые</string>
+    <string name="title_read_book">Прочитанные</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="hint_name_book">Название книги</string>
+    <string name="hint_author_book">Автор книги</string>
+    <string name="empty_input">Это поле должно быть заполнено</string>
+    <string name="error">Ошибка</string>
+
+</resources>

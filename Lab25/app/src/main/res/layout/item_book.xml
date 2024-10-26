@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/spacing_5"
+    android:paddingVertical="@dimen/spacing_2">
+
+
+    <ImageView
+        android:id="@+id/iconBook"
+        android:layout_width="@dimen/icon_book_size"
+        android:layout_height="@dimen/icon_book_size"
+        android:importantForAccessibility="no"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:srcCompat="@drawable/ic_new_book" />
+
+    <TextView
+        android:id="@+id/textTitleBook"
+        style="@style/Style.Text.Head2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_3"
+        app:layout_constraintStart_toEndOf="@+id/iconBook"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Братья Карамазовы"/>
+
+    <TextView
+        android:id="@+id/textAuthorBook"
+        style="@style/Style.Text.Caption2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textTitleBook"
+        app:layout_constraintTop_toBottomOf="@+id/textTitleBook"
+        tools:text="Достоевский Ф.М."/>
+</androidx.constraintlayout.widget.ConstraintLayout>
